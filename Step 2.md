@@ -21,7 +21,7 @@ Firstly, sign in to your AWS account and navigate to the S3 service. The service
 
 S3 Dashboard
 
-Click on the “Create Bucket” button just below the search bar. You will then be asked to create some details about the bucket you want to create. Enter a bucket name and select a region that you want the bucket to apply to and then click “Create”.
+Click on the "Create Bucket" button just below the search bar. You will then be asked to create some details about the bucket you want to create. Enter a bucket name and select a region that you want the bucket to apply to and then click "Create".
 
 
 S3 Create bucket
@@ -31,9 +31,9 @@ You should see the newly created bucket in your dashboard. Click on it.
 
 Bucket created
 
-Click on the “Permissions” tab at the top and then click on “Everyone”. Select the tick boxes for "read only" and then click “Save”. You should see a user that already has read and write access at the top:
+Click on the "Permissions" tab at the top and then click on "Everyone". Select the tick boxes for "read only" and then click "Save". You should see a user that already has read and write access at the top:
 
-Next click on the “Bucket Policy” button beneath the tabs. It will then prompt you to enter a bucket policy. Enter the following, replacing “your_bucket_name” with the name you chose for your bucket, and then press “Save”:
+Next click on the "Bucket Policy" button beneath the tabs. It will then prompt you to enter a bucket policy. Enter the following, replacing "your_bucket_name" with the name you chose for your bucket, and then press "Save":
 
 {
   "Version": "2008-10-17",
